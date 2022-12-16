@@ -155,8 +155,10 @@ Let's have a look at the structure of the knowledge graph.
 
 ![alt text](https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0004.jpg)
 
+Now we can move on to storing the knowledge graph on the filecoin based on this structure.
+### Storing knowldge graph on filecoin
+//TODO
 
-### Storing data on filecoin
 1. First, choose a miner:
 ```
 lotus client list-asks
@@ -185,4 +187,5 @@ t01591: min:256 B max:32 GiB price:0.0000000005 FIL/GiB/Epoch verifiedPrice:0.00
 ```
 lotus client import 
 ```
-
+### Retrieving the knowldge graph
+//TODO
