@@ -147,13 +147,13 @@ To move forward with Filecoin storage, we want to create a knowledge graph based
 
 Let's have a look at the structure of the knowledge graph.
 
-![alt text](https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0001.jpg)
+![alt text](https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0001.jpg)
 
-![alt text](https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0002.jpg)
+![alt text](https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0002.jpg)
 
-![alt text](https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0003.jpg)
+![alt text](https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0003.jpg)
 
-![alt text](https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0004.jpg)
+![alt text](https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0004.jpg)
 
 Now we can move on to storing the knowledge graph on the filecoin based on this structure.
 ### Storing knowldge graph on filecoin
