@@ -1,5 +1,3 @@
-# Knowledge-graph-storage-on-filecoin
-
 <p align="center">
     <img src="https://www.datalatte.com/imgs/datalatte.svg">
 </p>
@@ -15,12 +13,16 @@
         <img src="https://img.shields.io/twitter/follow/DATALATTE_?style=social&logo=twitter"
             alt="follow on Twitter"></a>
 </p>
+
+# Knowledge-graph-storage-on-filecoin
 ### Filecoin Storage
 Filecoin is a decentralized storage network that allows users to buy and sell storage space in a secure and trustless manner. It uses a novel blockchain-based mechanism to incentivize users to provide storage to the network, and allows them to earn rewards in the form of the network's native cryptocurrency, also called Filecoin. The goal of Filecoin is to provide a more secure, scalable, and transparent alternative to existing centralized storage solutions.
 
 ### Lotus node
 This sounds like a simple question; what is Lotus? And the surface-level answer is:
-![alt text](https://lotus.filecoin.io/lotus/get-started/what-is-lotus/High-Level-Lotus-Suite_hu46f9931703ca6917a3d49082bcb430a7_87466_800x0_resize_box_3.png)
+<p align="center" >
+    <img src="https://lotus.filecoin.io/lotus/get-started/what-is-lotus/High-Level-Lotus-Suite_hu46f9931703ca6917a3d49082bcb430a7_87466_800x0_resize_box_3.png" width="600px">
+</p>
 
 Lotus is a command-line application that lets you interact with Filecoin. You can do this by uploading and downloading files, renting out your storage to other users, and checking that computers are storing data correctly.
 
@@ -147,13 +149,18 @@ To move forward with Filecoin storage, we want to create a knowledge graph based
 
 Let's have a look at the structure of the knowledge graph.
 
-![alt text](https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0001.jpg)
-
-![alt text](https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0002.jpg)
-
-![alt text](https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0003.jpg)
-
-![alt text](https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0004.jpg)
+<p align="center">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0001.jpg" width="800px">
+</p>
+<p align="center">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0002.jpg" width="800px">
+</p>
+<p align="center">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0003.jpg" width="800px">
+</p>
+<p align="center">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0004.jpg" width="800px">
+</p>
 
 Now we can move on to storing the knowledge graph on the filecoin based on this structure.
 ### Storing knowldge graph on filecoin
