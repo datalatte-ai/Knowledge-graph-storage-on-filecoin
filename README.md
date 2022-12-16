@@ -102,3 +102,25 @@ Make sure that you open another terminal in order to interact with the lotus.
 lotus sync wait
 ```
 When you enter the sync command, you will see the message "Done!" When it's finished, your node will be synced and you may begin stroing data.
+### Get a FIL address
+1. Open a new terminal window and enter an address using the lotus:
+```
+lotus wallet list
+```
+```
+t14cdn74fvwcniq5b3y7fbwmh4adrq5akjowwh73a
+```
+2. You can use the following command to view the wallet address and balance:
+```
+list wallet list
+```
+```                                                                
+Address                                    Balance   Nonce  Default  
+t14cdn74fvwcniq5b3y7fbwmh4adrq5akjowwh73a  0 FIL     0      X  
+```
+
+3. Use `lotus wallet export` to export your private key, replacing `f1...` with your public key:
+
+```
+lotus wallet export f1... > my_address.key
+```
