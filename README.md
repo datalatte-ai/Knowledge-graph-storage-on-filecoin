@@ -124,3 +124,34 @@ t14cdn74fvwcniq5b3y7fbwmh4adrq5akjowwh73a  0 FIL     0      X
 ```
 lotus wallet export f1... > my_address.key
 ```
+
+### Adding FIL to your wallet using calibration faucet
+After copying your public address, go to https://faucet.calibration.fildev.network to receive FIL.
+Now you should wait for your request to be confirmed, and after it is, if your node is synced, enter 'lotus wallet list' you will notice that your balance has increased to 200 FIL.
+```
+Address                                    Balance     Nonce  Default  
+t14cdn74fvwcniq5b3y7fbwmh4adrq5akjowwh73a  200 FIL     0      X 
+```
+## knowledge graph
+Before we go into storing data on Filecoin, let's speak about knowledge graphs, which is what we'll be storing on Filecoin storage.
+
+A knowledge graph is a structured representation of real-world entities and their relationships. It is a way to organize and connect data in a way that allows for easy access and understanding of complex information.
+
+One advantage of storing a knowledge graph on a decentralized storage system is that it allows for greater accessibility and scalability. Decentralized systems do not rely on a central server or authority, which means that the knowledge graph can be accessed from anywhere with an internet connection. This is particularly useful when the knowledge graph is large and complex, as it allows for more efficient querying and retrieval of information.
+
+Another advantage of storing a knowledge graph on a decentralized system is that it can increase the security and integrity of the data.
+
+Overall, storing a knowledge graph on a decentralized storage system can provide greater accessibility, scalability, and security for the data. It is an effective way to store and manage complex information and can be a valuable tool for organizations and individuals seeking to make sense of large amounts of data.
+
+To move forward with Filecoin storage, we want to create a knowledge graph based on the [happiness survey](https://happiness-survey.com/).
+
+Let's have a look at the structure of the knowledge graph.
+
+![alt text](https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0001.jpg)
+
+![alt text](https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0002.jpg)
+
+![alt text](https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0003.jpg)
+
+![alt text](https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0004.jpg)
+
