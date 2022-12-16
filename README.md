@@ -128,7 +128,7 @@ lotus wallet export f1... > my_address.key
 ```
 
 ### Adding FIL to your wallet using calibration faucet
-After copying your public address, go to https://faucet.calibration.fildev.network to receive FIL.
+After copying your public address, go here https://faucet.calibration.fildev.network to receive some test FIL.
 Now you should wait for your request to be confirmed, and after it is, if your node is synced, enter 'lotus wallet list' you will notice that your balance has increased to 200 FIL.
 ```
 Address                                    Balance     Nonce  Default  
