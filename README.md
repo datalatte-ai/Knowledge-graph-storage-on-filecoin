@@ -155,3 +155,34 @@ Let's have a look at the structure of the knowledge graph.
 
 ![alt text](https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0004.jpg)
 
+
+### Storing data on filecoin
+1. First, choose a miner:
+```
+lotus client list-asks
+```
+You should see a list of miners like this: 
+```
+.. getting miner list
+* Found 64 miners with power
+.. querying asks
+* Queried 14 asks, got 12 responses
+t02133: min:256 B max:32 GiB price:0 FIL/GiB/Epoch verifiedPrice:0 FIL/GiB/Epoch ping:479.870292ms protos:
+t01584: min:2 MiB max:32 GiB price:0 FIL/GiB/Epoch verifiedPrice:0 FIL/GiB/Epoch ping:660.963027ms protos:
+t01588: min:256 B max:32 GiB price:0.0000000005 FIL/GiB/Epoch verifiedPrice:0.00000000005 FIL/GiB/Epoch ping:556.94495ms protos:
+t01235: min:256 B max:32 GiB price:0.0000000005 FIL/GiB/Epoch verifiedPrice:0.00000000005 FIL/GiB/Epoch ping:632.022959ms protos:
+t03351: min:256 B max:32 GiB price:0.0000000005 FIL/GiB/Epoch verifiedPrice:0.00000000005 FIL/GiB/Epoch ping:664.910486ms protos:
+t01750: min:256 B max:64 GiB price:0.0000000005 FIL/GiB/Epoch verifiedPrice:0.00000000005 FIL/GiB/Epoch ping:810.881221ms protos:
+t01990: min:256 B max:32 GiB price:0.0000000005 FIL/GiB/Epoch verifiedPrice:0.00000000005 FIL/GiB/Epoch ping:884.028678ms protos:
+t01718: min:256 B max:32 GiB price:0.0000000005 FIL/GiB/Epoch verifiedPrice:0.00000000005 FIL/GiB/Epoch ping:345.768699ms protos:
+t01231: min:256 B max:32 GiB price:0.0000000005 FIL/GiB/Epoch verifiedPrice:0.00000000005 FIL/GiB/Epoch ping:571.478234ms protos:
+t01035: min:256 B max:32 GiB price:0.0000000005 FIL/GiB/Epoch verifiedPrice:0.00000000005 FIL/GiB/Epoch ping:673.214057ms protos:
+t02255: min:256 B max:32 GiB price:0.0000000005 FIL/GiB/Epoch verifiedPrice:0.00000000005 FIL/GiB/Epoch ping:671.735297ms protos:
+t01591: min:256 B max:32 GiB price:0.0000000005 FIL/GiB/Epoch verifiedPrice:0.00000000005 FIL/GiB/Epoch ping:714.858919ms protos:
+```
+2. Choose a miner and write down the miner ID, for example. I'd like to work with the first miner, whose ID is 't02133'.
+3. Import your file:
+```
+lotus client import 
+```
+
