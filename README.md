@@ -150,16 +150,16 @@ To move forward with Filecoin storage, we want to create a knowledge graph based
 Let's have a look at the structure of the knowledge graph.
 
 <p align="center">
-    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0001.jpg" width="800px">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/Knowledge_graph_data_model-2_page-0001.jpg" width="800px">
 </p>
 <p align="center">
-    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0002.jpg" width="800px">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/Knowledge_graph_data_model-2_page-0002.jpg" width="800px">
 </p>
 <p align="center">
-    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0003.jpg" width="800px">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/Knowledge_graph_data_model-2_page-0003.jpg" width="800px">
 </p>
 <p align="center">
-    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/Knowledge_graph_data_model-2_page-0004.jpg" width="800px">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/Knowledge_graph_data_model-2_page-0004.jpg" width="800px">
 </p>
 
 Now we can move on to storing the knowledge graph on the filecoin based on this structure.
@@ -219,11 +219,15 @@ A processing unit is considered N/N (=1), which N is determined by the execution
 In the experiment's first phase, we ran the docker for 235 or 34,359,738,368 operation units.
 
 
-# IMAGE HERE
+<p align="center">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/chart1.png" width="800px">
+</p>
 
 As shown in Figure 1, you can see that although at the beginning of the tests, the gap in run time is somewhat big as the computations get bigger and bigger, this gap would not increase and remain linear. The linear slope between the two functions is very small, ensuring the gap would not widen significantly.
 
-# IMAGE HERE
+<p align="center">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/chart2.png" width="800px">
+</p>
 
 Based on the results we reported in Figure 1, we designed a formula to estimate the expected computation time for both Docker and Bacalhau in 2100 or 1,267,650,600,228,229,401,496,703,205,376 operation units.
 As you can see, the expected results are near identical in such high-complexity computation.
