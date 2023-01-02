@@ -150,16 +150,16 @@ To move forward with Filecoin storage, we want to create a knowledge graph based
 Let's have a look at the structure of the knowledge graph.
 
 <p align="center">
-    <img src="https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/images/Knowledge_graph_data_model-2_page-0001.jpg" width="800px">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/0001.jpg" width="800px">
 </p>
 <p align="center">
-    <img src="https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/images/Knowledge_graph_data_model-2_page-0002.jpg" width="800px">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/0002.jpg" width="800px">
 </p>
 <p align="center">
-    <img src="https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/images/Knowledge_graph_data_model-2_page-0003.jpg" width="800px">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/0003.jpg" width="800px">
 </p>
 <p align="center">
-    <img src="https://github.com/Alihszh/Knowledge-graph-storage-on-filecoin/blob/main/images/Knowledge_graph_data_model-2_page-0004.jpg" width="800px">
+    <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/0004.jpg" width="800px">
 </p>
 
 Now we can move on to storing the knowledge graph on the filecoin based on this structure.
