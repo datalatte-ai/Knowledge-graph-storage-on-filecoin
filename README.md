@@ -135,15 +135,17 @@ Address                                    Balance     Nonce  Default
 t14cdn74fvwcniq5b3y7fbwmh4adrq5akjowwh73a  200 FIL     0      X 
 ```
 ## knowledge graph
-Before we go into storing data on Filecoin, let's speak about knowledge graphs, which is what we'll be storing on Filecoin storage.
+Before we go into storing data on Filecoin, let's speak about Knowledge Graphs (KG), which is what we'll be storing on Filecoin storage.
 
 A knowledge graph is a structured representation of real-world entities and their relationships. It is a way to organize and connect data in a way that allows for easy access and understanding of complex information.
 
 One advantage of storing a knowledge graph on a decentralized storage system is that it allows for greater accessibility and scalability. Decentralized systems do not rely on a central server or authority, which means that the knowledge graph can be accessed from anywhere with an internet connection. This is particularly useful when the knowledge graph is large and complex, as it allows for more efficient querying and retrieval of information.
 
 Another advantage of storing a knowledge graph on a decentralized system is that it can increase the security and integrity of the data.
-
 Overall, storing a knowledge graph on a decentralized storage system can provide greater accessibility, scalability, and security for the data. It is an effective way to store and manage complex information and can be a valuable tool for organizations and individuals seeking to make sense of large amounts of data.
+we propose a graph-structured data model based on small KGs for a Survey Management System (SMS). This system allows researchers to conduct surveys on a community while storing and tokenizing survey answers with full ownership for users. 
+In this data model, four small KGs are defined according to different entities in the system. These entities are the SMS entity, the user entity, the survey owner entity, and the survey entity. In other words, there is one small KG for the internal SMS, which contains information about the SMS itself, information about the user's KG who is using SMS to answer surveys, information about the survey owner's KG, and the surveys' KG. The SMS KG provides a single source of knowledge to allow SMS to find and access surveys quickly and easily. These KGs are illustrated in the diagrams below. In each small KG, we store parent CIDs, shown with the "links to" relation. this relation allows the system to trace the history of the graph and all its previous versions, changes, and updates.  Although SMS can allow to access the CIDs of the user's KG and survey owner's KG if they are granted access, otherwise the "is stored with" relation is not applicable.
+
 
 To move forward with Filecoin storage, we want to create a knowledge graph based on the [happiness survey](https://happiness-survey.com/).
 
@@ -161,6 +163,7 @@ Let's have a look at the structure of the knowledge graph.
 <p align="center">
     <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/0004.jpg" width="800px">
 </p>
+
 
 Now we can move on to storing the knowledge graph on the filecoin based on this structure.
 ### Storing knowldge graph on filecoin
