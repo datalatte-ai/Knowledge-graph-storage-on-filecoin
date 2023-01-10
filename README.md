@@ -14,7 +14,8 @@
             alt="follow on Twitter"></a>
 </p>
 
-# Knowledge-graph-storage-on-filecoin
+
+# Knowledge Graph Storage on Filecoin
 ### Filecoin Storage
 Filecoin is a decentralized storage network that allows users to buy and sell storage space in a secure and trustless manner. It uses a novel blockchain-based mechanism to incentivize users to provide storage to the network, and allows them to earn rewards in the form of the network's native cryptocurrency, also called Filecoin. The goal of Filecoin is to provide a more secure, scalable, and transparent alternative to existing centralized storage solutions.
 
