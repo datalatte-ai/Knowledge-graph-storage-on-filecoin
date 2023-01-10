@@ -149,7 +149,7 @@ In this data model, four small KGs are defined according to different entities i
 
 To move forward with Filecoin storage, we want to create a knowledge graph based on the [happiness survey](https://happiness-survey.com/).
 
-Let's have a look at the structure of the knowledge graph.
+Let's have a look at the structure of our data model based on small KGs.
 
 <p align="center">
     <img src="https://github.com/datalatte-ai/Knowledge-graph-storage-on-filecoin/blob/main/images/0001.jpg" width="800px">
